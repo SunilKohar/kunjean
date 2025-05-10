@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    /* Set 1*/
+    --var-background : #F5F9FF;
+    --var-primary-blue: #0052CC;
+    --var-accent-Orange:#FF6B00;
+    --var-text-color:#1A1A1A;
+    --var-gradient1:linear-gradient(135deg, #1E3C72, #2A5298);
+    --var-gradient2:linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);
+    --var-gradient3:linear-gradient(135deg, #56CCF2, #2F80ED);
+    --var-gradient4:linear-gradient(135deg, #FF512F, #DD2476);
+    --var-gradient5:linear-gradient(120deg, #0F2027, #203A43, #2C5364);
+
+    /* Set 2*/
+    --var-primary-teal:#008080;
+    --var-darkblue:#002B5B;
+    --var-background1:#F0F4F8 ;
+    --var-text1:#333333;
+
+    /* Set 3*/
+    --var-primary-navy:#001F54;
+    --var-accent-yellow:#FFC300;
+    --var-background2:#FAFAFA ;
+    --var-text2:#212121;
+
+    /* Set 4*/
+    --var-primary-indigo:#3F51B5;
+    --var-secondary-blue:#03A9F4;
+    --var-background3:#FFFFFF ;
+    --var-text3:#2E2E2E;
+}
