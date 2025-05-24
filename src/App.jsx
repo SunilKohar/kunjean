@@ -1,12 +1,13 @@
 import './App.css';
 import Navbar from './components/navbar/navbar';
+import HeroSection from "./components/hero/HeroSection.jsx";
 function App() {
 
     // https://www.youtube.com/watch?v=WbV3zRgpw_E
     return (
-        <div className="bg-blue-500">
-
+        <div>
             <Navbar />
+            <HeroSection/>
         </div>
     )
 }

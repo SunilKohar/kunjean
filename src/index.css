@@ -31,3 +31,12 @@
     --var-background3:#FFFFFF ;
     --var-text3:#2E2E2E;
 }
+#root{
+
+    font-family: 'Noto Sans Display', sans-serif;
+
+}
+body{
+    @apply bg-[var(--var-secondary-blue)];
+    color: var(--var-text3);
+}
